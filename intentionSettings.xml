@@ -1,5 +1,6 @@
 <application>
   <component name="IntentionManagerSettings">
     <ignoreAction name="Language Injection/Inject language or reference" />
+    <ignoreAction name="PHP/Convert array to traditional syntax" />
   </component>
 </application>

@@ -140,7 +140,7 @@
     <option name="LAST_SELECTED_LANGUAGE" value="PHP" />
   </component>
   <component name="NodeLocalInterpreterManager">
-    <node-interpreter path="/usr/bin/node" version="0.12.9" last-modified="1449186769000" />
+    <node-interpreter path="/usr/bin/node" version="0.12.11" last-modified="1457030645000" />
   </component>
   <component name="PhpRefactoringSettings">
     <option name="RENAME_SEARCH_IN_COMMENTS_FOR_CLASS" value="true" />
