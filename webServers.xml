@@ -1,0 +1,20 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b899bc9e-16ab-4685-b4f9-99007a8af4f2" name="idea-reality.cz" url="http://ftp.antstudio.cz">
+        <fileTransfer host="ftp.antstudio.cz" port="21" rootFolder="/idea-reality" password="dfc3dfebdf9ddfdedf98dfd3dffcdf9fdfcbdf9bdfdedf9a" username="admin_antstudio.eu">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="ab5bff47-36b5-4c69-8033-de97d93541ed" name="test18" url="http://ftp.antstudio.cz">
+        <fileTransfer host="ftp.antstudio.cz" port="21" rootFolder="/test18" password="dfc3dfebdf9ddfdedf98dfd3dffcdf9fdfcbdf9bdfdedf9a" username="admin_antstudio.eu">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
