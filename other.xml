@@ -10,9 +10,6 @@
             <id>Code SmellPHP</id>
           </State>
           <State>
-            <id>CoffeeScript</id>
-          </State>
-          <State>
             <id>Control flow issuesJavaScript</id>
           </State>
           <State>
@@ -40,9 +37,6 @@
             <id>Potentially confusing code constructsJavaScript</id>
           </State>
           <State>
-            <id>Probable bugsCoffeeScript</id>
-          </State>
-          <State>
             <id>Probable bugsJavaScript</id>
           </State>
           <State>
@@ -53,9 +47,6 @@
           </State>
           <State>
             <id>UndefinedPHP</id>
-          </State>
-          <State>
-            <id>XPath</id>
           </State>
         </expanded-state>
         <selected-state>
