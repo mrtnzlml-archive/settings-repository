@@ -10,8 +10,8 @@
       <mapping pattern=".htdeployment" type="PLAIN_TEXT" />
       <mapping pattern=".hhconfig" type="PLAIN_TEXT" />
       <mapping pattern="components" type="PLAIN_TEXT" />
-      <mapping pattern="presenters" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
+      <mapping pattern="presenters" type="PLAIN_TEXT" />
       <mapping pattern="FormVal" type="PLAIN_TEXT" />
       <mapping pattern="testbench" type="PLAIN_TEXT" />
       <mapping pattern="TestExtension" type="PLAIN_TEXT" />
