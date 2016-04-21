@@ -6,6 +6,7 @@
       <removed_mapping ext="phpt" type="Nette Tester test" />
       <mapping pattern="run-tests" type="PHP" />
       <mapping ext="phpt" type="PHP" />
+      <mapping pattern="IFooterTemplateProvider" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern=".htdeployment" type="PLAIN_TEXT" />
       <mapping pattern=".hhconfig" type="PLAIN_TEXT" />
