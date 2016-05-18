@@ -7,6 +7,7 @@
       <mapping pattern="run-tests" type="PHP" />
       <mapping ext="hh" type="PHP" />
       <mapping ext="phpt" type="PHP" />
+      <mapping ext="phptx" type="PHP" />
       <mapping pattern=".htdeployment" type="PLAIN_TEXT" />
       <mapping pattern=".hhconfig" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
