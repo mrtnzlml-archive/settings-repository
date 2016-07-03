@@ -262,7 +262,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="ifa" value="interface I$NAME$Factory&#10;{&#10;&#9;/** @return $NAME$ */&#10;&#9;function create();&#10;}" description="interface component factory" toReformat="true" toShortenFQNames="true">
+  <template name="ifa" value="interface I$NAME$Factory&#10;{&#10;&#10;&#9;/** @return $NAME$ */&#10;&#9;public function create();&#10;&#10;}" description="interface component factory" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
