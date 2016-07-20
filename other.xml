@@ -132,7 +132,7 @@
   </component>
   <component name="NodeLocalInterpreterManager">
     <node-interpreter path="/usr/local/bin/node" version="6.2.0" last-modified="1464681455000" />
-    <node-interpreter path="/usr/bin/node" version="0.12.14" last-modified="1462552908000" />
+    <node-interpreter path="/usr/bin/node" version="0.12.15" last-modified="1466731424000" />
     <node-interpreter path="$USER_HOME$/.nvm/versions/node/v4.4.5/bin/node" version="4.4.5" last-modified="1464110880000" />
   </component>
   <component name="PhpRefactoringSettings">
