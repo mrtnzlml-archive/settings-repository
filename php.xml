@@ -17,8 +17,8 @@
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7.0.0">
-        <phpinfo binary_type="PHP" php_cgi="/usr/bin/php-cgi" php_cli="/usr/bin/php7.0" path_separator=":" remote_host="127.0.0.1" version="7.0.4-1~dotdeb+8.1">
-          <additional_php_ini>/etc/php/7.0/cli/conf.d/20-curl.ini, /etc/php/7.0/cli/conf.d/20-gd.ini, /etc/php/7.0/cli/conf.d/20-intl.ini, /etc/php/7.0/cli/conf.d/20-json.ini, /etc/php/7.0/cli/conf.d/20-mcrypt.ini, /etc/php/7.0/cli/conf.d/20-mysqli.ini, /etc/php/7.0/cli/conf.d/20-opcache.ini, /etc/php/7.0/cli/conf.d/20-pdo_mysql.ini, /etc/php/7.0/cli/conf.d/20-pdo_pgsql.ini, /etc/php/7.0/cli/conf.d/20-pdo_sqlite.ini, /etc/php/7.0/cli/conf.d/20-pgsql.ini, /etc/php/7.0/cli/conf.d/20-sqlite3.ini</additional_php_ini>
+        <phpinfo binary_type="PHP" php_cgi="/usr/bin/php-cgi" php_cli="/usr/bin/php7.0" path_separator=":" version="7.0.8-1~dotdeb+8.1">
+          <additional_php_ini>/etc/php/7.0/cli/conf.d/10-igbinary.ini, /etc/php/7.0/cli/conf.d/10-msgpack.ini, /etc/php/7.0/cli/conf.d/10-mysqlnd.ini, /etc/php/7.0/cli/conf.d/10-opcache.ini, /etc/php/7.0/cli/conf.d/10-pdo.ini, /etc/php/7.0/cli/conf.d/15-xml.ini, /etc/php/7.0/cli/conf.d/20-calendar.ini, /etc/php/7.0/cli/conf.d/20-ctype.ini, /etc/php/7.0/cli/conf.d/20-curl.ini, /etc/php/7.0/cli/conf.d/20-dom.ini, /etc/php/7.0/cli/conf.d/20-exif.ini, /etc/php/7.0/cli/conf.d/20-fileinfo.ini, /etc/php/7.0/cli/conf.d/20-ftp.ini, /etc/php/7.0/cli/conf.d/20-gd.ini, /etc/php/7.0/cli/conf.d/20-gettext.ini, /etc/php/7.0/cli/conf.d/20-iconv.ini, /etc/php/7.0/cli/conf.d/20-intl.ini, /etc/php/7.0/cli/conf.d/20-json.ini, /etc/php/7.0/cli/conf.d/20-mbstring.ini, /etc/php/7.0/cli/conf.d/20-mcrypt.ini, /etc/php/7.0/cli/conf.d/20-memcached.ini, /etc/php/7.0/cli/conf.d/20-mysqli.ini, /etc/php/7.0/cli/conf.d/20-pdo_mysql.ini, /etc/php/7.0/cli/conf.d/20-pdo_pgsql.ini, /etc/php/7.0/cli/conf.d/20-pdo_sqlite.ini, /etc/php/7.0/cli/conf.d/20-pgsql.ini, /etc/php/7.0/cli/conf.d/20-phar.ini, /etc/php/7.0/cli/conf.d/20-posix.ini, /etc/php/7.0/cli/conf.d/20-readline.ini, /etc/php/7.0/cli/conf.d/20-shmop.ini, /etc/php/7.0/cli/conf.d/20-simplexml.ini, /etc/php/7.0/cli/conf.d/20-soap.ini, /etc/php/7.0/cli/conf.d/20-sockets.ini, /etc/php/7.0/cli/conf.d/20-sqlite3.ini, /etc/php/7.0/cli/conf.d/20-sysvmsg.ini, /etc/php/7.0/cli/conf.d/20-sysvsem.ini, /etc/php/7.0/cli/conf.d/20-sysvshm.ini, /etc/php/7.0/cli/conf.d/20-tokenizer.ini, /etc/php/7.0/cli/conf.d/20-wddx.ini, /etc/php/7.0/cli/conf.d/20-xmlreader.ini, /etc/php/7.0/cli/conf.d/20-xmlwriter.ini, /etc/php/7.0/cli/conf.d/20-xsl.ini, /etc/php/7.0/cli/conf.d/20-zip.ini, /etc/php/7.0/cli/conf.d/90-blackfire.ini</additional_php_ini>
           <configuration_file>/etc/php/7.0/cli/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
@@ -36,15 +36,23 @@
             <configuration_option name="auto_detect_line_endings" value="0" />
             <configuration_option name="auto_globals_jit" value="1" />
             <configuration_option name="auto_prepend_file" value="" />
-            <configuration_option name="bcmath.scale" value="0" />
+            <configuration_option name="blackfire.agent_socket" value="unix:///var/run/blackfire/agent.sock" />
+            <configuration_option name="blackfire.agent_timeout" value="0.25" />
+            <configuration_option name="blackfire.env_id" value="" />
+            <configuration_option name="blackfire.env_token" value="" />
+            <configuration_option name="blackfire.log_file" value="" />
+            <configuration_option name="blackfire.log_level" value="1" />
+            <configuration_option name="blackfire.server_id" value="" />
+            <configuration_option name="blackfire.server_token" value="" />
             <configuration_option name="browscap" value="" />
+            <configuration_option name="cli.pager" value="" />
+            <configuration_option name="cli.prompt" value="\b \&gt; " />
             <configuration_option name="curl.cainfo" value="" />
             <configuration_option name="date.default_latitude" value="31.7667" />
             <configuration_option name="date.default_longitude" value="35.2333" />
             <configuration_option name="date.sunrise_zenith" value="90.583333" />
             <configuration_option name="date.sunset_zenith" value="90.583333" />
             <configuration_option name="date.timezone" value="" />
-            <configuration_option name="dba.default_handler" value="flatfile" />
             <configuration_option name="default_charset" value="UTF-8" />
             <configuration_option name="default_mimetype" value="text/html" />
             <configuration_option name="default_socket_timeout" value="60" />
@@ -84,11 +92,12 @@
             <configuration_option name="iconv.input_encoding" value="" />
             <configuration_option name="iconv.internal_encoding" value="" />
             <configuration_option name="iconv.output_encoding" value="" />
+            <configuration_option name="igbinary.compact_strings" value="1" />
             <configuration_option name="ignore_repeated_errors" value="" />
             <configuration_option name="ignore_repeated_source" value="" />
             <configuration_option name="ignore_user_abort" value="0" />
             <configuration_option name="implicit_flush" value="1" />
-            <configuration_option name="include_path" value=".:/usr/share/php:" />
+            <configuration_option name="include_path" value=".:/usr/share/php" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
             <configuration_option name="intl.default_locale" value="" />
@@ -116,7 +125,37 @@
             <configuration_option name="mbstring.substitute_character" value="" />
             <configuration_option name="mcrypt.algorithms_dir" value="" />
             <configuration_option name="mcrypt.modes_dir" value="" />
+            <configuration_option name="memcached.compression_factor" value="1.3" />
+            <configuration_option name="memcached.compression_threshold" value="2000" />
+            <configuration_option name="memcached.compression_type" value="fastlz" />
+            <configuration_option name="memcached.default_binary_protocol" value="0" />
+            <configuration_option name="memcached.default_connect_timeout" value="0" />
+            <configuration_option name="memcached.default_consistent_hash" value="0" />
+            <configuration_option name="memcached.serializer" value="igbinary" />
+            <configuration_option name="memcached.sess_binary_protocol" value="1" />
+            <configuration_option name="memcached.sess_connect_timeout" value="0" />
+            <configuration_option name="memcached.sess_consistent_hash" value="1" />
+            <configuration_option name="memcached.sess_lock_expire" value="0" />
+            <configuration_option name="memcached.sess_lock_max_wait" value="not set" />
+            <configuration_option name="memcached.sess_lock_retries" value="5" />
+            <configuration_option name="memcached.sess_lock_wait" value="not set" />
+            <configuration_option name="memcached.sess_lock_wait_max" value="2000" />
+            <configuration_option name="memcached.sess_lock_wait_min" value="1000" />
+            <configuration_option name="memcached.sess_locking" value="1" />
+            <configuration_option name="memcached.sess_number_of_replicas" value="0" />
+            <configuration_option name="memcached.sess_persistent" value="0" />
+            <configuration_option name="memcached.sess_prefix" value="memc.sess." />
+            <configuration_option name="memcached.sess_randomize_replica_read" value="0" />
+            <configuration_option name="memcached.sess_remove_failed_servers" value="0" />
+            <configuration_option name="memcached.sess_sasl_password" value="" />
+            <configuration_option name="memcached.sess_sasl_username" value="" />
+            <configuration_option name="memcached.sess_server_failure_limit" value="0" />
+            <configuration_option name="memcached.store_retry_count" value="2" />
             <configuration_option name="memory_limit" value="-1" />
+            <configuration_option name="msgpack.error_display" value="1" />
+            <configuration_option name="msgpack.illegal_key_insert" value="0" />
+            <configuration_option name="msgpack.php_only" value="1" />
+            <configuration_option name="msgpack.use_str8_serialization" value="1" />
             <configuration_option name="mysqli.allow_local_infile" value="1" />
             <configuration_option name="mysqli.allow_persistent" value="1" />
             <configuration_option name="mysqli.default_host" value="" />
@@ -155,6 +194,7 @@
             <configuration_option name="opcache.huge_code_pages" value="0" />
             <configuration_option name="opcache.inherited_hack" value="1" />
             <configuration_option name="opcache.interned_strings_buffer" value="4" />
+            <configuration_option name="opcache.lockfile_path" value="/tmp" />
             <configuration_option name="opcache.log_verbosity_level" value="1" />
             <configuration_option name="opcache.max_accelerated_files" value="2000" />
             <configuration_option name="opcache.max_file_size" value="0" />
@@ -270,12 +310,11 @@
             <extension name="SPL" />
             <extension name="SimpleXML" />
             <extension name="Zend OPcache" />
-            <extension name="bcmath" />
+            <extension name="blackfire" />
             <extension name="calendar" />
             <extension name="ctype" />
             <extension name="curl" />
             <extension name="date" />
-            <extension name="dba" />
             <extension name="dom" />
             <extension name="exif" />
             <extension name="fileinfo" />
@@ -285,11 +324,14 @@
             <extension name="gettext" />
             <extension name="hash" />
             <extension name="iconv" />
+            <extension name="igbinary" />
             <extension name="intl" />
             <extension name="json" />
             <extension name="libxml" />
             <extension name="mbstring" />
             <extension name="mcrypt" />
+            <extension name="memcached" />
+            <extension name="msgpack" />
             <extension name="mysqli" />
             <extension name="mysqlnd" />
             <extension name="openssl" />
@@ -300,7 +342,9 @@
             <extension name="pdo_sqlite" />
             <extension name="pgsql" />
             <extension name="posix" />
+            <extension name="readline" />
             <extension name="session" />
+            <extension name="shmop" />
             <extension name="soap" />
             <extension name="sockets" />
             <extension name="sqlite3" />
@@ -309,9 +353,11 @@
             <extension name="sysvsem" />
             <extension name="sysvshm" />
             <extension name="tokenizer" />
+            <extension name="wddx" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlwriter" />
+            <extension name="xsl" />
             <extension name="zip" />
             <extension name="zlib" />
           </loaded_extensions>
