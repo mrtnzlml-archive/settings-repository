@@ -4,6 +4,7 @@
     <notification groupId="Database editor log" displayType="NONE" />
     <notification groupId="Database refactoring log" displayType="NONE" />
     <notification groupId="Database view" displayType="TOOL_WINDOW" />
+    <notification groupId="Docker: Dockerfile detection" displayType="NONE" shouldLog="false" />
     <notification groupId="External Executable Critical Failures" displayType="STICKY_BALLOON" />
     <notification groupId="Git Important Messages" displayType="STICKY_BALLOON" />
     <notification groupId="Git Messages" displayType="TOOL_WINDOW" />
