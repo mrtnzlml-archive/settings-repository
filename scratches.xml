@@ -1,12 +1,8 @@
 <application>
   <component name="ScratchFileService">
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch" value="TEXT" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" value="SQL" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1" value="TEXT" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.txt" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2" value="TEXT" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_7" value="TEXT" />
