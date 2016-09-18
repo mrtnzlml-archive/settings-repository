@@ -17,6 +17,7 @@
       <mapping ext="expected" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping ext="actual" type="PLAIN_TEXT" />
+      <mapping ext="cfg" type="PLAIN_TEXT" />
       <mapping ext="list" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
