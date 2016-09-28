@@ -7,21 +7,12 @@
             <id />
           </State>
           <State>
-            <id>Code SmellPHP</id>
-          </State>
-          <State>
             <id>PHP</id>
-          </State>
-          <State>
-            <id>UndefinedPHP</id>
-          </State>
-          <State>
-            <id>XML</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>PhpUndefinedNamespaceInspection</id>
+            <id>PhpCSValidationInspection</id>
           </State>
         </selected-state>
       </profile-state>
