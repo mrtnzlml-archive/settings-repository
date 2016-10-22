@@ -5,5 +5,9 @@
     <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
     <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
     <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="GraphQL" injector-id="php">
+      <display-name>&lt;&lt;&lt;GraphQL</display-name>
+      <place><![CDATA[phpLiteralExpression("GraphQL")]]></place>
+    </injection>
   </component>
 </application>
