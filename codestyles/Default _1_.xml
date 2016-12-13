@@ -1,4 +1,7 @@
 <code_scheme name="Default (1)">
+  <MarkdownNavigatorCodeStyleSettings>
+    <option name="RIGHT_MARGIN" value="72" />
+  </MarkdownNavigatorCodeStyleSettings>
   <PHPCodeStyleSettings>
     <option name="UPPER_CASE_BOOLEAN_CONST" value="true" />
     <option name="UPPER_CASE_NULL_CONST" value="true" />
