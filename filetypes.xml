@@ -3,6 +3,7 @@
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
       <mapping ext="texy" type="Markdown" />
+      <mapping pattern="EMPTY" type="Native" />
       <mapping ext="production" type="Neon" />
       <removed_mapping ext="phpt" type="Nette Tester test" />
       <mapping pattern="run-tests" type="PHP" />
