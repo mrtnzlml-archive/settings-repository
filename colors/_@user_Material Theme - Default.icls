@@ -4,7 +4,7 @@
     <property name="created">2017-01-14T11:27:53</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2016.3.2.0.0</property>
-    <property name="modified">2017-01-19T13:52:42</property>
+    <property name="modified">2017-01-19T14:13:57</property>
     <property name="originalScheme">Material Theme - Default</property>
     <property name="rainbow Default language">true</property>
   </metaInfo>
@@ -22,7 +22,7 @@
   <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="CONSOLE_LINE_SPACING" value="1.6" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="212c32" />
+    <option name="ADDED_LINES_COLOR" value="c7ca97" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
     <option name="BORDER_LINES_COLOR" value="" />
     <option name="CARET_COLOR" value="ffcc00" />
