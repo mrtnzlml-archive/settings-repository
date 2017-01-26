@@ -12,12 +12,12 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="/usr/local/bin/php" id="6e543407-3caf-47f0-b1bb-99198e678376" name="PHP 7.0.0" debugger_id="php.debugger.XDebug" />
+      <interpreter home="/usr/local/bin/php" id="6e543407-3caf-47f0-b1bb-99198e678376" name="PHP 7.1" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="PHP 7.0.0">
+      <interpreter name="PHP 7.1">
         <phpinfo binary_type="PHP" php_cgi="/usr/local/bin/php-cgi" php_cli="/usr/local/bin/php" path_separator=":" version="7.1.1">
           <additional_php_ini />
           <configuration_file />
@@ -93,6 +93,16 @@
             <configuration_option name="max_input_nesting_level" value="64" />
             <configuration_option name="max_input_time" value="-1" />
             <configuration_option name="max_input_vars" value="1000" />
+            <configuration_option name="mbstring.detect_order" value="" />
+            <configuration_option name="mbstring.encoding_translation" value="0" />
+            <configuration_option name="mbstring.func_overload" value="0" />
+            <configuration_option name="mbstring.http_input" value="" />
+            <configuration_option name="mbstring.http_output" value="" />
+            <configuration_option name="mbstring.http_output_conv_mimetypes" value="^(text/|application/xhtml\+xml)" />
+            <configuration_option name="mbstring.internal_encoding" value="" />
+            <configuration_option name="mbstring.language" value="neutral" />
+            <configuration_option name="mbstring.strict_detection" value="0" />
+            <configuration_option name="mbstring.substitute_character" value="" />
             <configuration_option name="memory_limit" value="128M" />
             <configuration_option name="mysqlnd.collect_memory_statistics" value="0" />
             <configuration_option name="mysqlnd.collect_statistics" value="1" />
@@ -203,6 +213,7 @@
             <extension name="iconv" />
             <extension name="json" />
             <extension name="libxml" />
+            <extension name="mbstring" />
             <extension name="mysqlnd" />
             <extension name="openssl" />
             <extension name="pcre" />
@@ -211,6 +222,7 @@
             <extension name="pdo_sqlite" />
             <extension name="posix" />
             <extension name="session" />
+            <extension name="sockets" />
             <extension name="sqlite3" />
             <extension name="standard" />
             <extension name="tokenizer" />
