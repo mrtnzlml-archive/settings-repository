@@ -13,8 +13,9 @@
       <mapping ext="phptx" type="PHP" />
       <mapping pattern=".htdeployment" type="PLAIN_TEXT" />
       <mapping pattern=".hhconfig" type="PLAIN_TEXT" />
-      <mapping pattern="all" type="PLAIN_TEXT" />
       <mapping pattern="production" type="PLAIN_TEXT" />
+      <mapping pattern="all" type="PLAIN_TEXT" />
+      <mapping pattern="purge" type="PLAIN_TEXT" />
       <mapping pattern=".rsync-filter" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping ext="actual" type="PLAIN_TEXT" />
