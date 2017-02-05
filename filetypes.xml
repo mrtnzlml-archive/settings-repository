@@ -5,8 +5,6 @@
       <mapping pattern="Dockerfile-56" type="Dockerfile" />
       <mapping pattern="Dockerfile-71" type="Dockerfile" />
       <mapping ext="texy" type="Markdown" />
-      <mapping pattern="php" type="Native" />
-      <mapping pattern="EMPTY" type="Native" />
       <mapping ext="production" type="Neon" />
       <removed_mapping ext="phpt" type="Nette Tester test" />
       <mapping pattern="run-tests" type="PHP" />
@@ -14,22 +12,22 @@
       <mapping ext="hh" type="PHP" />
       <mapping ext="phpt" type="PHP" />
       <mapping ext="phptx" type="PHP" />
-      <mapping pattern=".htdeployment" type="PLAIN_TEXT" />
-      <mapping pattern=".hhconfig" type="PLAIN_TEXT" />
       <mapping pattern="production" type="PLAIN_TEXT" />
       <mapping pattern=".rsync-filter" type="PLAIN_TEXT" />
-      <mapping pattern="all" type="PLAIN_TEXT" />
-      <mapping pattern="purge" type="PLAIN_TEXT" />
+      <mapping pattern=".hhconfig" type="PLAIN_TEXT" />
       <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
-      <mapping ext="actual" type="PLAIN_TEXT" />
+      <mapping pattern="purge" type="PLAIN_TEXT" />
+      <mapping pattern=".htdeployment" type="PLAIN_TEXT" />
+      <mapping pattern="all" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="neon2" type="PLAIN_TEXT" />
       <mapping ext="expected" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
-      <mapping ext="cfg" type="PLAIN_TEXT" />
+      <mapping ext="actual" type="PLAIN_TEXT" />
       <mapping ext="travis" type="PLAIN_TEXT" />
       <mapping ext="list" type="PLAIN_TEXT" />
       <mapping ext="j2" type="PLAIN_TEXT" />
+      <mapping ext="cfg" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
