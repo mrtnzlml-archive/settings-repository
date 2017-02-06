@@ -7,7 +7,7 @@
   <component name="PhpAutoImport" auto_import_file_scope="true" />
   <component name="PhpCodeSniffer">
     <phpcs_settings>
-      <PhpCSConfiguration standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="/var/www/html/adeira/superproject/vendor/bin/phpcs" />
+      <PhpCSConfiguration standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="$USER_HOME$/Work/adeira/connector/vendor/bin/phpcs" />
     </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
